@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import requests
 
@@ -66,4 +66,3 @@ if st.button("Show Weather"):
 
     else:
         st.error("Unable to retrieve weather data. Please try again.")
-```
